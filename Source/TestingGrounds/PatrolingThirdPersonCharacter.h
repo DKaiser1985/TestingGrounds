@@ -13,7 +13,8 @@ class TESTINGGROUNDS_API APatrolingThirdPersonCharacter : public ATP_ThirdPerson
 {
 	GENERATED_BODY()
 	
-	
+	UPROPERTY(EditAnywhere, Category = "Patrol Route")
+		TArray<AActor*> PatrolPointsCPP;
 	
 	
 };
